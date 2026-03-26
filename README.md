@@ -10,6 +10,7 @@ Custom slash commands for [Claude Code](https://claude.ai/code).
 | `/pr` | Create a pull request with auto-generated title and summary from commits. |
 | `/check` | Run pre-push quality checks (pint, stan, format, lint, tests). |
 | `/sync` | Sync `main` and `dev` branches by merging and pushing. |
+| `/refactor-to-action` | Identify business logic and refactor into Laravel Action classes using the AsAction trait pattern. |
 | `/clean-worktrees` | Remove all git worktrees under `.claude/worktrees/`. |
 
 ## Install
