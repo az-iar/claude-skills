@@ -1,6 +1,6 @@
 {
   "name": "@inneuron/claude-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Custom slash commands for Claude Code",
   "bin": {
     "claude-skills": "bin/cli.js"
