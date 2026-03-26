@@ -2,7 +2,17 @@ Run the pre-push checklist to verify code quality before pushing.
 
 ## Instructions
 
-Run the following commands in order. Stop and report if any step fails.
+### 0. Install dependencies if missing
+
+- If `vendor/` directory is missing or `composer.lock` is newer than `vendor/`, run `composer install`
+- If `node_modules/` directory is missing or `bun.lock` is newer than `node_modules/`, run `bun install`
+- Check each tool is available and install if missing:
+  - `vendor/bin/pint` — `composer require laravel/pint --dev`
+  - `vendor/bin/phpstan` — `composer require larastan/larastan --dev`
+  - `vendor/bin/pest` — `composer require pestphp/pest --dev`
+  - `bunx oxlint --version` fails — `bun add -d oxlint`
+
+### 1. Run checks in order. Stop and report if any step fails.
 
 1. `vendor/bin/pint --dirty --format agent` — PHP code formatting
 2. `composer stan` — PHPStan static analysis
