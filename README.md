@@ -15,22 +15,25 @@ Custom slash commands for [Claude Code](https://claude.ai/code).
 ## Install
 
 ```bash
-git clone https://github.com/az-iar/claude-skills.git ~/.claude-skills
-~/.claude-skills/install.sh
+bunx @az-iar/claude-skills
 ```
 
-This symlinks the skills into `~/.claude/commands/` so they're available globally in Claude Code.
+or
+
+```bash
+npx @az-iar/claude-skills
+```
 
 ## Uninstall
 
 ```bash
-~/.claude-skills/uninstall.sh
+bunx @az-iar/claude-skills uninstall
 ```
 
 ## Update
 
-```bash
-cd ~/.claude-skills && git pull
-```
+Re-run the install command to update to the latest version:
 
-Since the skills are symlinked, pulling updates takes effect immediately.
+```bash
+bunx @az-iar/claude-skills@latest
+```

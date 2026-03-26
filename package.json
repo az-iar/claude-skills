@@ -1,0 +1,15 @@
+{
+  "name": "@az-iar/claude-skills",
+  "version": "1.0.0",
+  "description": "Custom slash commands for Claude Code",
+  "bin": {
+    "claude-skills": "bin/cli.js"
+  },
+  "keywords": ["claude", "claude-code", "skills", "slash-commands"],
+  "author": "az-iar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/az-iar/claude-skills.git"
+  }
+}
