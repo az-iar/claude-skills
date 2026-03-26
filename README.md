@@ -15,19 +15,19 @@ Custom slash commands for [Claude Code](https://claude.ai/code).
 ## Install
 
 ```bash
-bunx @az-iar/claude-skills
+bunx @inneuron/claude-skills
 ```
 
 or
 
 ```bash
-npx @az-iar/claude-skills
+npx @inneuron/claude-skills
 ```
 
 ## Uninstall
 
 ```bash
-bunx @az-iar/claude-skills uninstall
+bunx @inneuron/claude-skills uninstall
 ```
 
 ## Update
@@ -35,5 +35,5 @@ bunx @az-iar/claude-skills uninstall
 Re-run the install command to update to the latest version:
 
 ```bash
-bunx @az-iar/claude-skills@latest
+bunx @inneuron/claude-skills@latest
 ```
